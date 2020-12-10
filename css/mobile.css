@@ -114,6 +114,10 @@ body {
   #front .logo {
     margin-top: -6rem;
   }
+
+  #front .logo {
+    margin-top: -5rem;
+  }
 }
 
 @media (max-width: 425px) {
@@ -134,6 +138,10 @@ body {
   #main-nav a {
     padding: 1.3rem;
   }
+
+  #front .logo {
+    margin-top: 0rem;
+  }
 }
 
 @media (max-width: 411px) {
@@ -153,6 +161,10 @@ body {
 
   #main-nav a {
     padding: 1.1rem;
+  }
+
+  #front .logo {
+    margin-top: 1rem;
   }
 }
 
