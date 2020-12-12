@@ -12,7 +12,8 @@
 } */
 
 #front .image {
-  /* width: 100vw; */
+  width: 100vw;
+  height: auto;
   opacity: 1;
   transition: none;
   padding-top: 5vh;
