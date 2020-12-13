@@ -110,3 +110,38 @@ body {
   }
 
 }
+
+/* iPhone 5 and SE */
+@media (device-width: 320px) and (device-height: 568px) {
+  #front .image {
+    width: 320px;
+  }
+}
+
+/* iPhone 6, 7 and 8 */
+@media (device-width: 375px) and (device-height: 667px) {
+  #front .image {
+    width: 375px;
+  }
+}
+
+/* iPhone 6, 7 and 8 plus*/
+@media (device-width: 414px) and (device-height: 736px) {
+  #front .image {
+    width: 414px;
+  }
+}
+
+/* iPhone X*/
+@media (device-width: 375px) and (device-height: 812px) {
+  #front .image {
+    width: 375px;
+  }
+}
+
+/* iPad*/
+@media (device-width: 768px) and (device-height: 1024px) {
+  #front .image {
+    width: 768px;
+  }
+}
