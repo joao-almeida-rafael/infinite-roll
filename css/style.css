@@ -76,11 +76,6 @@ a {
   transition: all 1s ease;
 }
 
-/* #main-nav .social .fab:hover,
-#main-nav .home .fas:hover {
-  font-size: 40px;
-} */
-
 #main-nav .home p {
   opacity: 0%;
 }
