@@ -259,13 +259,12 @@ body .image:hover {
 }
 
 footer .foot {
-  margin-top: 75px;
   font-size: 15px;
   color: var(--light-color);
   opacity: 50%;
   position: fixed;
   bottom: 0;
-  right: 44vw;
+  right: 45vw;
 }
 
 /* Keyframes */
