@@ -264,8 +264,7 @@ footer .foot {
   color: var(--light-color);
   opacity: 50%;
   display: flex;
-  justify-content: center;
-  margin-top: 18px;
+  justify-content: left;
 }
 
 footer .foot_home {
