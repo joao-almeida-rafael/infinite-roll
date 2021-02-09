@@ -111,6 +111,18 @@ body {
 
 }
 
+footer .foot {
+  font-size: 2vh;
+  color: var(--light-color);
+  opacity: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* right: 45vw; */
+}
+
 /* iPhone 5 and SE */
 @media (device-width: 320px) and (device-height: 568px) {
   #front .image {
