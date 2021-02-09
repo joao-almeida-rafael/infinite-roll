@@ -266,9 +266,14 @@ footer .foot {
   display: flex;
   justify-content: center;
   margin-top: 18px;
-  /* position: fixed; */
-  /* bottom: 0; */
-  /* right: 45vw; */
+}
+
+footer .foot_home {
+  font-size: 2vh;
+  color: var(--light-color);
+  opacity: 50%;
+  position: fixed;
+  bottom: 0;
 }
 
 /* Keyframes */
