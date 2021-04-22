@@ -215,6 +215,18 @@ body .image:hover {
   padding-top: 2rem;
 }
 
+#map .address {
+  color: var(--light-color);
+}
+#map .maps {
+  opacity: 100%;
+  transition: all 0.5s;
+}
+
+#map .maps:hover {
+  opacity: 25%;
+}
+
 /* Store */
 
 /* Events */
