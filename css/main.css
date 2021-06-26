@@ -1,7 +1,6 @@
 /* Global */
-
 .body{
-  overflow-x: hidden !important;
+  overflow-x: hidden!important;
 }
 
 a{
@@ -38,7 +37,6 @@ a:hover {
 }
 
 /* Nav */
-
 #logo-s {
   margin-top: 0.2rem;
   display: inline-flex;
@@ -77,12 +75,6 @@ a:hover {
 }
 
 /* Hero */
-
-/* #hero-img{
-  -webkit-filter: brightness(0.5);
-  filter: brightness(0.6);
-} */
-
 #hero-logo{
   margin-top: 80px;
   height: 80vh;
@@ -96,8 +88,6 @@ a:hover {
 
 .cheveron {
   z-index: 2;
-  /* position: absolute; */
-  /* margin: auto; */
   font-size: 4rem;
 }
 
@@ -106,9 +96,7 @@ a:hover {
   cursor: pointer;
 }
 
-
 /* Club */
-
 #discord {
   font-size: 5rem;
   margin: 1rem;
@@ -119,7 +107,6 @@ a:hover {
 }
 
 /* Renting */
-
 .parallax-container{
   width: 100vw;
   height: auto;
@@ -171,7 +158,6 @@ a:hover {
 }
 
 /* Here */
-
 #here{
   background-color: #501E54;
 }
@@ -189,7 +175,6 @@ a:hover {
 }
 
 /* Contact */
-
 #contact{
   margin-top: 4rem;
 }
@@ -214,7 +199,6 @@ a:hover {
 }
 
 /* Brands */
-
 #brands{
   padding-top: 3rem;
 }
@@ -224,7 +208,6 @@ a:hover {
 }
 
 /* Footer */
-
 #logos{
   height: 5rem;
 }
@@ -237,25 +220,23 @@ a:hover {
 
 /* Media Queries */
 
-@media (max-width: 992px) {
+/* @media (max-width: 767px) {
 
-  /* Nav */
 
   #logo-s {
     height: 5rem;
+    width: 5rem;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
     text-align: center;
-    width: 5rem;
   }
 
   #brand-logo {
     display: none;
   }
 
-  /* Hero */
 
   #cheveron {
     display: none;
@@ -264,29 +245,25 @@ a:hover {
   #hero-logo {
     position: absolute;
     margin-top: 20vh;
-    /* padding-top: 20%; */
     left: 0%;
     right: 0%;
-    /* text-align: center; */
     z-index: 2;
     width: 100%;
     height: auto;
   }
 
   #hero {
-    /* object-fit: cover; */
     margin-top: -80px;
     height: 104vh;
     width: 100vw !important; 
   }
-}
+} */
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 
   /* General */
 
   /* Nav */
-
   .navbar-fixed nav {
     position: absolute;
   }
@@ -299,14 +276,13 @@ a:hover {
     height: 4rem;
     width: 4rem;
     position: absolute;
-    /* margin: auto; */
+    margin: auto;
     left: 0;
     right: 0;
-    /* text-align: center;  */
+    text-align: center; 
   }
 
   /* Hero */
-
   #cheveron {
     display: none;
   }
@@ -314,17 +290,14 @@ a:hover {
   #hero-logo {
     position: absolute;
     margin-top: 20vh;
-    /* padding-top: 20%; */
     left: 0%;
     right: 0%;
-    /* text-align: center; */
     z-index: 2;
     width: 100%;
     height: auto;
   }
 
   #hero {
-    /* object-fit: cover; */
     margin-top: -80px;
     height: 103vh;
     width: 100vw;
@@ -333,7 +306,6 @@ a:hover {
   /* Club */
 
   /* Event */
-
   #cal-btn1{
     display: none;
   }
@@ -345,13 +317,11 @@ a:hover {
   /* Renting */
 
   /* Here */
-
   #here{
     display: none;
   }
 
   /* Contact */
-
   #directions {
     display: block;
   }
@@ -361,7 +331,6 @@ a:hover {
   }
 
   /* Footer */
-
   #brands{
     display: none;
   }
