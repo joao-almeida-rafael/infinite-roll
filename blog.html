@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!--Import Google Icon Font-->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <!--Import Fontawesome-->
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Roll Club - Warhammer, Jogos de Tabuleiro, Cartas Colecionaveis, Dungeons and Dragons</title>
+    <meta name="description" content="Loja e Club de jogos de tabuleiro de marcas como Games Workshop, MEBO, Devir. Produtos mais variados Warhammer 40000, Warhammer Age of Sigma, TCG como cartas Pokémon , LCG. Temos um club nas Caldas da Rainha com muito espaço para efectuar eventos, torneios e campeonatos de todo o tipo de jogos table top">
+  </head>
+
+  <body id="home" class="scrollspy grey lighten-3">
+
+    <!-- Nav -->
+    
+    <div class="navbar-fixed" >
+      <nav class="transparent">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home">
+              <img id="logo-s" src="img/logo_s.png" alt="">
+                </a>
+                  <a href="#home" id="brand-logo" class="brand-logo"></a>
+                  <a href="#" data-activates="mobile-nav" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                  </a>
+                  <ul class="right hide-on-med-and-down">
+                    <li>
+                      <a class="merch" href="#merch">Merchandise</a>
+                    </li>
+                    <li>
+                      <a class="blog" href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                      <a class="club" href="#club">Clube</a>
+                    </li>
+                    <li>
+                      <a class="contact" href="#contact">Contactos</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+
+      // Init Side nav
+        $('.button-collapse').sideNav();
+      });
+
+      // Init Slider
+      $('.slider').slider({
+          indicators: false,
+          height: 500,
+          transition: 500,
+          interval: 6000
+      });
+
+      // Init Scrollspy
+      $('.scrollspy').scrollSpy();
+
+      // Init Carousel
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+      });
+
+      // Init Modal
+      $(document).ready(function () {
+        $('.modal').modal();
+      });
+
+      // Navbar color change
+      const options = [
+      {
+        selector: '.navbar-fixed', offset: 1400, callback: function () {
+          $('nav').removeClass('transparent');
+          $('nav').addClass('newcolor');
+        }
+      }
+      ];
+
+      // Init Parallax
+      $(document).ready(function(){
+        $('.parallax').parallax();
+      });
+
+      Materialize.scrollFire(options);
+    </script>
+  </body>
+</html>
