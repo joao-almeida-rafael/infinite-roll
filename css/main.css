@@ -1,7 +1,7 @@
 /* Global */
 
 .body{
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 a{
@@ -277,7 +277,7 @@ a:hover {
     /* object-fit: cover; */
     margin-top: -80px;
     height: 104vh;
-    width: 103vw !important; 
+    width: 100vw !important; 
   }
 }
 
