@@ -12,7 +12,7 @@
 
     <!--Import Fontawesome-->
 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 
     <!--Let browser know website is optimized for mobile-->
     
@@ -40,14 +40,24 @@
                   </a>
                   <ul class="right hide-on-med-and-down">
                     <li>
-                      <a class="merch" href="#merch">Merchandise</a>
+                      <a class="merch" href="merch.html">Merchandise</a>
                     </li>
                     <li>
                       <a class="blog" href="blog.html">Blog</a>
                     </li>
                     <li>
-                      <a class="club" href="#club">Clube</a>
+                      <!-- <a class="club" href="#club">Clube</a> -->
+                       <!-- Dropdown Trigger -->
+                      <a class="dropdown-button" data-activates="dropdown1">Clube</a>
+
+                      <!-- Dropdown Structure -->
+                      <ul id="dropdown1" class="dropdown-content grey lighten-3">
+                        <li><a class="black-text" href="#club">Sobre nós</a></li>
+                        <li><a class="black-text" href="#renting">Aluguer</a></li>
+                        <li><a class="black-text" href="#event">Eventos</a></li>
+                      </ul>
                     </li>
+
                     <li>
                       <a class="contact" href="#contact">Contactos</a>
                     </li>
@@ -481,6 +491,20 @@
       $(document).ready(function(){
         $('.parallax').parallax();
       });
+
+      //Init Dropdown
+
+      $('.dropdown-button').dropdown({
+        inDuration: 300,
+        outDuration: 225,
+        constrainWidth: false, // Does not change width of dropdown to that of the activator
+        hover: true, // Activate on hover
+        gutter: 0, // Spacing from edge
+        belowOrigin: false, // Displays dropdown below the button
+        alignment: 'left', // Displays dropdown with edge aligned to the left of button
+        stopPropagation: false // Stops event propagation
+      }
+      );
 
       Materialize.scrollFire(options);
     </script>
