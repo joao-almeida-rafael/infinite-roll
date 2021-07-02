@@ -309,9 +309,11 @@
             <div class="col s12">
               <h2>Faz já a tua encomenda!</h2>
               <h5 class="grey-text text-darken-3">Aceitamos encomendas de todo o tipo de jogos. <br> Envia-nos uma mensagem com o teu pedido</h5>
-              <a id="btn-event" class="btn modal-trigger" href="#modalbrands">Encomendar</a>
-              <h5 class="brands left grey-text text-darken-2">Vê a lista das nossas marcas</h5>
             </div>
+            <div class="col s12">
+              <a id="btn-event" class="btn modal-trigger" href="#modalbrands">Encomendar</a>
+            </div>
+              <h5 class="brands left grey-text text-darken-2">Vê a lista das nossas marcas</h5> 
           </div>
         </div>
         
@@ -529,7 +531,7 @@
         $('.parallax').parallax();
       });
 
-      //Init Dropdown
+      // Init Dropdown
 
       $('.dropdown-button').dropdown({
         inDuration: 300,
@@ -543,38 +545,17 @@
       }
       );
 
+      // Init form select
+      $(document).ready(function() {
+        $('select').material_select();
+      });
+
+      // Init form char counter
+      $(document).ready(function() {
+        $('input#input_text, textarea#textarea1').characterCounter();
+      });
+
       Materialize.scrollFire(options);
     </script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-<form action="POST" method="post" data-netlify="true">
-  <div class="fields">
-    <div class="field half">
-      <label for="name">Nome</label>
-      <input type="text" name="name" id="name" />
-    </div>
-    <div class="field half">
-      <label for="email">e-mail</label>
-      <input type="text" name="email" id="email" />
-    </div>
-    <div class="field">
-      <label for="message">Mensagem</label>
-      <textarea name="message" id="message" rows="4"></textarea>
-    </div>
-    <div class="field half">
-      <div data-netlify-recaptcha="true"></div>
-    </div>
-  </div>
-  <ul class="actions half">
-    <li><input type="submit" value="enviar mensagem" class="primary" /></li>
-    <li><input type="reset" value="Apagar" /></li>
-  </ul>
-</form>
