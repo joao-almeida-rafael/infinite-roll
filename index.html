@@ -111,11 +111,8 @@
               <a class="carousel-item" href="#four!">
                 <img src="img/img6.jpg" alt="">
               </a>
-              <a class="carousel-item" href="#four!">
+              <a class="carousel-item" href="#five!">
                 <img src="img/img7.jpg" alt="">
-              </a>
-              <a class="carousel-item" href="#four!">
-                <img src="img/img8.jpg" alt="">
               </a>
             </div>
           </div>
@@ -183,7 +180,7 @@
             <h2>Vem participar!</h2>
             <h5 class="grey-text text-darken-2">Temos todo o tipo de eventos e workshops ou vem só fazer o hangout</h5>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, eligendi! In dolores blanditiis magnam rem tempore rerum eveniet velit labore, qui ea iste repellendus est dolore voluptas quas accusantium quod. Minima corrupti reiciendis, deleniti eius distinctio maiores possimus molestias esse. Sit doloremque voluptate molestiae enim culpa dignissimos illum, nostrum corrupti eligendi nam natus consequuntur! Cupiditate labore explicabo odio perspiciatis dignissimos ullam, asperiores aperiam, pariatur voluptatem officiis doloremque corporis totam saepe soluta nam unde nihil, quae quasi ex nobis alias non deleniti blanditiis dicta. Molestias eaque enim repellat odio aspernatur sint modi ipsum. Aspernatur quod molestiae voluptatibus repellat, illum deserunt.</p>
-            <a id="btn-event" class="btn modal-trigger" href="#modalcontact">Reserva o club</a>
+            <a id="btn-event" class="btn modal-trigger" href="#modalmessage">Reserva o club</a>
           </div>
         </div>
       </div>            
@@ -216,7 +213,7 @@
               <h5 class="grey-text text-darken-3">Aceitamos encomendas de todo o tipo de jogos. <br> Envia-nos uma mensagem com o teu pedido</h5>
             </div>
             <div class="col s12">
-              <a id="btn-event" class="btn modal-trigger" href="#modalbrands">Encomendar</a>
+              <a id="btn-event" class="btn modal-trigger" href="#modalmessage">Encomendar</a>
             </div>
               <h5 class="brands left grey-text text-darken-2">Vê a lista das nossas marcas</h5> 
           </div>
@@ -315,7 +312,7 @@
                       <span class="material-icons">home</span>
                     </a>
                   </td>
-                  <td>Rua Raúl Proença, 12B, 2500-248, Caldas da Rainha</td>
+                  <td>Rua Raúl Proença, 12 B, 2500-248, Caldas da Rainha</td>
                 </tr>
               </tbody>
             </table>
@@ -369,7 +366,7 @@
 
     <!-- Footer -->
     <footer class="section grey lighten-1 black-text center">
-      <p class="small-text center">©2017-2021 All Rights Reserved. <p></p> Infinite Roll&trade; is a trademark of A. Flores and J. Rafael. <p></p> All icons, (non Infinite Roll&trade;) logos or other (non Infinite Roll&trade;) assets are trademarks of the respective creators and/or companies,<p></p> that were registered in the U.S. and/or other countries.</p>
+      <p class="small-text center">©2017-2021 | All Rights Reserved. <p></p> Infinite Roll&trade; is a trademark of A. Flores & J. Rafael. <p></p> All (non Infinite Roll&trade;) assets are trademarks of the respective creators and/or companies.</p>
     </footer>
 
     <!-- Modal Structure for Board Game Club -->
@@ -390,15 +387,13 @@
 
     <!-- Modal Structure for Aluguer -->
     <div id="modal3" class="modal">
-      <div class="modal-content">
-        <h4>Regras de Utilização</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quis, fugiat reiciendis eveniet architecto veniam consequuntur corporis dolores voluptates minus, sapiente possimus eius est repellendus aut. Voluptatem, laboriosam obcaecati error sed neque cumque voluptas nulla corporis possimus impedit vitae ipsa iure minima! Ad explicabo nam vel fuga illum? Aliquid optio vitae cumque illum voluptates. Fugiat alias, aspernatur recusandae saepe blanditiis qui voluptates modi dolorum dolor doloribus quaerat necessitatibus. Distinctio expedita, quaerat nostrum modi obcaecati commodi error unde esse facere doloribus minima voluptas veritatis deleniti, voluptatibus atque natus minus asperiores vero. Optio non provident aliquam, laborum animi quia nam tempora at officia? Enim animi vel expedita repudiandae quasi? Accusantium, exercitationem porro ad a asperiores quasi animi quam repudiandae dolorum consequuntur inventore enim excepturi voluptas et ratione ab doloribus pariatur aliquam quis facere, aut assumenda totam autem perferendis. Odit hic eum facilis sint accusantium deserunt, ex amet enim veniam ut laborum placeat doloribus, dolore voluptates iure? Placeat quidem, officiis illo earum quisquam nemo commodi asperiores. Perferendis quisquam ullam inventore assumenda magni, minus error, vero atque quo quam repellendus voluptatem cumque ducimus, fugiat nostrum molestiae cupiditate necessitatibus et. Ratione iste dignissimos corrupti pariatur unde, magnam non. Voluptatibus voluptas magni sit praesentium ipsa, odio, sequi iste quos soluta possimus repellat consectetur quam illum ullam. Esse temporibus unde repellat atque?Maxime!</p>
-        <div class="btn">Ver Lista de Jogos</div>
+      <div class="modal-content white">
+        <img class="responsive-img" src="img/aluguer.jpg" alt="">
       </div>
     </div>
 
-    <!-- Modal Structure for Brands -->
-    <div id="modalbrands" class="modal">
+    <!-- Modal Structure for Direct Messages -->
+    <div id="modalmessage" class="modal">
       <div class="modal-content">
         <div class="row">
           <form name="contacto" class="col s12" action="POST" data-netlify="true">
@@ -421,9 +416,14 @@
               </div>
             </div>
             <div class="row">
-              <div class="col s6">
+              <div class="col s3">
                 <ul>
                   <li><input class="btn" type="submit" value="Enviar" /></li>
+                </ul>
+              </div>
+              <div class="col s3">
+                <ul>
+                  <li><a id="btn-event" class="btn modal-trigger" href="#modalcontact">Contatcos</a></li>
                 </ul>
               </div>
               <div class="col s6">
