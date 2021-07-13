@@ -335,7 +335,7 @@ a:hover{
   }
 
   .g-recaptcha *{
-    width: 250px;
+    width: 100%;
   }
 
   /* Event */
