@@ -37,7 +37,9 @@ a:hover{
   filter: brightness(0.4);
 }
 
-
+.btn-mobile{
+  display: none;
+}
 
 /* Index */
 /* Nav */
@@ -319,7 +321,18 @@ a:hover{
     width: 100vw;
   }
 
-  /* Club */
+  /* Events */
+  .desktop-row{
+    display: none;
+  }
+
+  .btn-mobile{
+    display: contents;
+  }
+  
+  .btn-mobile .btn{
+    margin: 0;
+  }
 
   /* Event */
   #cal-btn1{
