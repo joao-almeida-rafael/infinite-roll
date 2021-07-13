@@ -338,6 +338,12 @@ a:hover{
     width: 100%;
   }
 
+  .modal{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+
   /* Event */
   #cal-btn1{
     display: none;
