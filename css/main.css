@@ -163,6 +163,12 @@ a:hover{
   height: 3rem;
 }
 
+.desktop-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 /* Here */
 #here{
   background-color: #501E54;
