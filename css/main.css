@@ -244,45 +244,6 @@ a:hover{
 
 /* Media Queries */
 
-/* @media (max-width: 767px) {
-
-
-  #logo-s {
-    height: 5rem;
-    width: 5rem;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-
-  #brand-logo {
-    display: none;
-  }
-
-
-  #cheveron {
-    display: none;
-  }
-
-  #hero-logo {
-    position: absolute;
-    margin-top: 20vh;
-    left: 0%;
-    right: 0%;
-    z-index: 2;
-    width: 100%;
-    height: auto;
-  }
-
-  #hero {
-    margin-top: -80px;
-    height: 104vh;
-    width: 100vw !important; 
-  }
-} */
-
 @media (max-width: 768px) {
 
   /* General */
