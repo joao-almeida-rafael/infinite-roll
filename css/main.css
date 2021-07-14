@@ -41,6 +41,11 @@ a:hover{
   display: none;
 }
 
+.modal{
+  max-height: 80%;
+  height: 80%;
+}
+
 /* Index */
 /* Nav */
 #logo-s {
