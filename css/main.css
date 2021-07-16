@@ -44,6 +44,7 @@ a:hover{
 .modal{
   max-height: 80%;
   height: 80%;
+  font-size: 1.1rem;
 }
 
 /* Index */
