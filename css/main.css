@@ -1,27 +1,27 @@
 /* Global */
-body{
-  overflow-x: hidden!important;
+body {
+  overflow-x: hidden !important;
 }
 
-a{
-  color: #501E54;
+a {
+  color: #501e54;
 }
 
-a:hover{
+a:hover {
   color: orange;
 }
 
 .btn-large,
 .btn {
-   background-color: #501E54;
-   color: white;
-   margin: 1.5rem;
+  background-color: #501e54;
+  color: white;
+  margin: 1.5rem;
 }
 
 .btn-large:hover,
 .btn:hover {
-    color: black;
-    background-color: orange;
+  color: black;
+  background-color: orange;
 }
 
 .divider {
@@ -32,16 +32,16 @@ a:hover{
   color: grey;
 }
 
-.parallax{
+.parallax {
   -webkit-filter: brightness(0.5);
   filter: brightness(0.4);
 }
 
-.btn-mobile{
+.btn-mobile {
   display: none;
 }
 
-.modal{
+.modal {
   max-height: 80%;
   height: 80%;
   font-size: 1.1rem;
@@ -49,7 +49,7 @@ a:hover{
 
 /* Index */
 /* Nav */
-.merch{
+.merch {
   display: none;
 }
 
@@ -87,17 +87,17 @@ a:hover{
 }
 
 .newcolor {
-  background-color: #501E54;
+  background-color: #501e54;
 }
 
 /* Hero */
-#hero-logo{
+#hero-logo {
   margin-top: 80px;
   height: 80vh;
   width: auto;
 }
 
-#hero{
+#hero {
   height: 101vh;
   margin-top: -80px;
 }
@@ -107,7 +107,7 @@ a:hover{
   font-size: 4rem;
 }
 
-.cheveron:hover{
+.cheveron:hover {
   font-size: 5rem;
   cursor: pointer;
 }
@@ -123,21 +123,21 @@ a:hover{
 }
 
 /* Renting */
-.parallax-container{
+.parallax-container {
   width: 100vw;
   height: auto;
 }
 
-#lion-head{
+#lion-head {
   margin-top: 3rem;
 }
 
-#btn-info{
+#btn-info {
   margin-bottom: 3rem;
 }
 
 /* Event */
-#event{
+#event {
   margin-bottom: 3rem;
 }
 
@@ -147,13 +147,13 @@ a:hover{
   margin-top: 2rem;
   font-size: 1.4rem;
 }
-#cal-btn1{
+#cal-btn1 {
   padding-top: 8rem;
 }
 
 #cal-btn2 {
- margin-top: 1rem;
- font-size: 1.4rem;
+  margin-top: 1rem;
+  font-size: 1.4rem;
 }
 
 #direct-contact {
@@ -173,31 +173,31 @@ a:hover{
   height: 3rem;
 }
 
-.desktop-row{
+.desktop-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 /* Here */
-#here{
-  background-color: #501E54;
+#here {
+  background-color: #501e54;
 }
 
-#wh{
+#wh {
   height: 8rem;
 }
- 
-#here .row{
+
+#here .row {
   margin-bottom: 0rem;
 }
 
-#dd{
+#dd {
   height: 9rem;
 }
 
 /* Contact */
-#contact{
+#contact {
   margin-top: 4rem;
 }
 
@@ -206,7 +206,7 @@ a:hover{
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 2.2rem;
-  color: #501E54;
+  color: #501e54;
   margin-top: 1rem;
 }
 
@@ -221,20 +221,20 @@ a:hover{
 }
 
 /* Brands */
-#brands{
+#brands {
   padding-top: 3rem;
 }
 
-.brands{
+.brands {
   margin-bottom: 3rem;
 }
 
 /* Footer */
-#logos{
+#logos {
   height: 5rem;
 }
 
-#logos-list{
+#logos-list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -242,20 +242,19 @@ a:hover{
 
 /* Blog */
 
-.fa-tools{
+.fa-tools {
   font-size: 10rem;
   margin-top: 25vh;
   margin-bottom: 2rem;
 }
 
-.const-text{
+.const-text {
   margin-bottom: 25vh;
 }
 
 /* Media Queries */
 
 @media (max-width: 768px) {
-
   /* General */
 
   /* Nav */
@@ -274,7 +273,7 @@ a:hover{
     margin: auto;
     left: 0;
     right: 0;
-    text-align: center; 
+    text-align: center;
   }
 
   /* Hero */
@@ -299,37 +298,37 @@ a:hover{
   }
 
   /* Events */
-  .desktop-row{
+  .desktop-row {
     display: none;
   }
 
-  .btn-mobile{
+  .btn-mobile {
     display: contents;
   }
 
-  .btn-mobile .btn{
+  .btn-mobile .btn {
     margin: 0;
   }
 
-  .modal{
+  .modal {
     margin: 0;
     padding: 0;
     width: 100vw;
   }
 
   /* Event */
-  #cal-btn1{
+  #cal-btn1 {
     display: none;
   }
 
-  #cal-btn2{
+  #cal-btn2 {
     margin-top: 0rem;
   }
 
   /* Renting */
 
   /* Here */
-  #here{
+  #here {
     display: none;
   }
 
@@ -343,7 +342,7 @@ a:hover{
   }
 
   /* Footer */
-  #brands{
+  #brands {
     display: none;
   }
 }
