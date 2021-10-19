@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <!--Import Privacy Preferences from Termly-->
     <script type="text/javascript" src="https://app.termly.io/embed.min.js" data-auto-block="on" data-website-uuid="5bce041e-9a61-4cd0-ae62-ff59b00fba4a"></script>
     
     <!--Import Google Icon Font-->
@@ -388,8 +388,13 @@
     <!-- Footer -->
     <footer class="section grey lighten-1 black-text center">
       <p class="small-text center">©2017-2021 || Infinite Roll&trade;<p>
+
+    <!--Cookie and Privacy Policies-->
       <a href="cookie_policy.html">Cookie Policy |</a><a href="privacy_policy.html">| Privacy Policy</a>
+
       <p></p>
+
+    <!--Cookie Manager Button-->
       <button class="termly-cookie-preference-button btn" onclick="displayPreferenceModal()">Manage Cookie Preferences</button>
     </footer>
 
@@ -397,7 +402,8 @@
     <div id="modal1" class="modal">
       <div class="modal-content">
         <h4>Quem Somos</h4>
-        <p> <span class=" grey-text">
+        <p> 
+          <span class=" grey-text">
           &emsp;A Infinite Roll é uma loja que vende jogos de tabuleiro mas também oferece um 
           espaço agradável para qualquer pessoa se juntar e jogar, isto fez com que 
           crescesse uma comunidade de jogadores de vários tipos de jogos entre role-playing 
@@ -416,18 +422,15 @@
           importante, ter um espaço aberto e mais acessível para que seja mais fácil 
           qualquer pessoa participar no mundo dos jogos de tabuleiro. <br><br>
           #keeponrolling
-        </span>
-          </p>
+          </span>
+        </p>
       </div>
     </div>
-  </div>
 
     <!-- Modal Structure for Calendar -->
     <div id="modal2" class="modal">
       <div class="modal-content">
-        <br>
-        <br>
-        <br>
+        <br><br><br>
         <iframe src="https://calendar.google.com/calendar/embed?height=450&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLisbon&amp;src=aW5maW5pdGUucm9sbGluZ0BnbWFpbC5jb20&amp;color=%23039BE5&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0" style="border-width:0" width="750" height="450" frameborder="0" scrolling="no"></iframe>
       </div>
     </div>
@@ -446,19 +449,19 @@
           <form name="contacto" class="col s12" action="POST" data-netlify="true">
             <div class="row">
               <div class="input-field col s12">
-                <input name="nome" type="text" class="validate">
+                <input name="nome" type="text" class="validate" required>
                 <label for="name">Nome</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <input name="email" type="email" class="validate">
+                <input name="email" type="email" class="validate" required>
                 <label for="email">E-mail</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <textarea name="mensagem" class="materialize-textarea" data-length="200"></textarea>
+                <textarea name="mensagem" class="materialize-textarea" data-length="200" required></textarea>
                 <label for="textarea">Mensagem</label>
               </div>
             </div>
@@ -495,7 +498,6 @@
                 <div class="center" data-netlify-recaptcha="true"></div>
               </div>
             </div>
-            
             
           </form>
         </div>
