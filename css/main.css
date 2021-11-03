@@ -47,6 +47,17 @@ a:hover {
   font-size: 1.1rem;
 }
 
+#modalcontact {
+  padding-top: 10rem;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  margin-left: 18.7rem;
+  margin-right: 18.7rem;
+}
+
 /* Index */
 /* Nav */
 .merch {
@@ -173,7 +184,7 @@ a:hover {
   height: 3rem;
 }
 
-.desktop-row {
+.hide-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -298,7 +309,7 @@ a:hover {
   }
 
   /* Events */
-  .desktop-row {
+  .hide-btn {
     display: none;
   }
 

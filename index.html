@@ -20,10 +20,11 @@
     <!--Import Fontawesome-->
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 
-    <!--Let browser know website is optimized for mobile-->
+    <!--Let browser know this website is optimized for mobile-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Infinite Roll Club   Warhammer, Dungeons and Dragons, Jogos de Tabuleiro, TCGs e RPGs. </title>
     <meta name="description" content="Loja e Club de jogos de tabuleiro nas Caldas da Rainha. Temos eventos, torneios, campeonatos, workshops, sessões de RPGs, zona longe e esplanada. Vendemos e alugamos todo o tipo de jogos de tabuleiro, cartas, livros, revistas e artigos colecionáveis">
   </head>
@@ -37,35 +38,32 @@
           <div class="nav-wrapper">
             <a href="#home">
               <img id="logo-s" src="img/logo_s.png" alt="">
-                </a>
-                  <a href="#home" id="brand-logo" class="brand-logo"></a>
-                  <a href="#" data-activates="mobile-nav" class="button-collapse">
-                    <i class="material-icons">menu</i>
-                  </a>
-                  <ul class="right hide-on-med-and-down">
-                    <li>
-                      <a class="merch" href="merch.html">Merchandise</a>
-                    </li>
-                    <li>
-
-                       <!-- Dropdown Trigger -->
-                      <a class="dropdown-button" data-activates="dropdown1">Clube</a>
-
-                      <!-- Dropdown Structure -->
-                      <ul id="dropdown1" class="dropdown-content grey lighten-3">
-                        <li><a class="black-text" href="#club">Sobre nós</a></li>
-                        <li><a class="black-text" href="#renting">Aluguer</a></li>
-                        <li><a class="black-text" href="#event">Eventos</a></li>
-                      </ul>
-                    </li>
-
-                    <li>
-                      <a class="contact" href="#contact">Contactos</a>
-                    </li>
+            </a>
+            <a href="#home" id="brand-logo" class="brand-logo"></a>
+            <a href="#" data-activates="mobile-nav" class="button-collapse">
+              <i class="material-icons">menu</i>
+            </a>
+              <ul class="right hide-on-med-and-down">
+                <li>
+                  <a class="merch" href="merch.html">Merchandise</a>
+                </li>
+                <li>
+                  <!-- Dropdown Trigger -->
+                  <a class="dropdown-button" data-activates="dropdown1">Clube</a>
+                  <!-- Dropdown Structure -->
+                  <ul id="dropdown1" class="dropdown-content grey lighten-3">
+                    <li><a class="black-text" href="#club">Sobre nós</a></li>
+                    <li><a class="black-text" href="#renting">Aluguer</a></li>
+                    <li><a class="black-text" href="#event">Eventos</a></li>
                   </ul>
-                </div>
+                </li>
+                <li>
+                  <a class="contact" href="#contact">Contactos</a>
+                </li>
+              </ul>
             </div>
-        </nav>
+        </div>
+      </nav>
     </div>
 
     <!-- Side Nav -->
@@ -461,11 +459,11 @@
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <textarea name="mensagem" class="materialize-textarea" data-length="200" required></textarea>
+                <textarea name="mensagem" class="materialize-textarea validate" data-length="200" required></textarea>
                 <label for="textarea">Mensagem</label>
               </div>
             </div>
-            <div class="row desktop-row">
+            <div class="row hide-btn">
               <div>
                 <ul>
                   <li><input class="btn" type="submit" value="Enviar" /></li>
@@ -474,6 +472,11 @@
               <div>
                 <ul>
                   <li><a class="btn modal-trigger" href="#modalcontact">Contactos</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><a href="#!" class="modal-close btn center">Fechar</a></li>
                 </ul>
               </div>
             </div>
@@ -522,7 +525,10 @@
           <a href="tel:{928031174}"><i class="fas fa-mobile-alt"></i></a>
         </li>
       </ul>
+
       <h3 id="contact-title" class="center">Vamos falar</h3>
+
+      <a href="#!" class="modal-close btn center test hide-btn">Fechar</a>
 
       </div>
     </div>
