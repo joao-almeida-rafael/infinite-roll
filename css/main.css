@@ -156,6 +156,11 @@ a:hover {
   margin-bottom: 3rem;
 }
 
+.event-btn {
+  display: grid;
+  place-items: center;
+}
+
 #cal-btn1,
 #add-cal,
 #see-cal {
