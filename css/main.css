@@ -11,6 +11,15 @@ a:hover {
   color: orange;
 }
 
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url('../img/loader.gif') no-repeat center center;
+}
+
 .btn-large,
 .btn {
   background-color: #501e54;
