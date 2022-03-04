@@ -154,6 +154,12 @@ a:hover {
   height: auto;
 }
 
+.responsive-img {
+  opacity: 0.8;
+  width: 75%;
+  margin-bottom: 2rem;
+}
+
 /* #lion-head {
   margin-top: 3rem;
 } */
