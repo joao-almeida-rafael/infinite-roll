@@ -154,18 +154,20 @@ a:hover {
   height: auto;
 }
 
-.responsive-img {
-  opacity: 0.9;
-  width: 75%;
-  margin-bottom: 2rem;
+.rent td {
+  border-bottom: 1px solid white;
 }
 
-/* #lion-head {
-  margin-top: 3rem;
-} */
+.rent .last {
+  border-bottom: none;
+}
 
-#btn-info {
+.rent {
   margin-bottom: 3rem;
+}
+
+.rent th {
+  border-bottom: 2px solid white;
 }
 
 /* Event */
