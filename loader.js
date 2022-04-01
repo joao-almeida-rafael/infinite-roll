@@ -1,3 +1,5 @@
+/* Pre load pacman on to the screen  */
+
 var loader;
 
 function loadNow(opacity) {
