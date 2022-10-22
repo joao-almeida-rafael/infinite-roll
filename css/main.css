@@ -117,6 +117,20 @@ a:hover {
 }
 
 /* Hero */
+#halloween {
+  display: grid;
+  place-items: center;
+  margin-top: 55px;
+}
+
+#halloween-col {
+  margin-left: 0;
+}
+
+.card-content {
+  background-color: black;
+}
+
 #hero-logo {
   margin-top: 80px;
   height: 80vh;
@@ -170,7 +184,7 @@ a:hover {
   border-bottom: 3px solid white;
 }
 
-.terms{
+.terms {
   margin-bottom: 5rem;
 }
 
@@ -331,6 +345,12 @@ a:hover {
   }
 
   /* Hero */
+  #halloween {
+    display: grid;
+    place-items: center;
+    margin-top: 10vh;
+  }
+
   #cheveron {
     display: none;
   }
