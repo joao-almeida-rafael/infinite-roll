@@ -349,6 +349,7 @@ a:hover {
     display: grid;
     place-items: center;
     margin-top: 10vh;
+    height: 90vh;
   }
 
   #cheveron {
