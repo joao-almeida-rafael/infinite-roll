@@ -28,13 +28,13 @@ a:hover {
   margin: 1.5rem;
 }
 
-.btn-inv {
+.inv {
   background-color: orange;
   color: black;
   margin: 1.5rem;
 }
 
-.btn-inv:hover {
+.inv:hover {
   background-color: white;
   color: black;
   margin: 1.5rem;
