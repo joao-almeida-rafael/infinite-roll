@@ -58,7 +58,7 @@
     ></script>
 
     <!-- Import reCaptcha -->
-   <!--  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!--  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
  -->
     <!--Let browser know this website is optimized for mobile-->
     <meta charset="UTF-8" />
@@ -334,9 +334,9 @@
           <div class="col s12">
             <!-- Modal Trigger -->
             <a
-            class="waves-effect waves-light btn inv modal-trigger"
-            href="#modal-events"
-            >Inscrições</a
+              class="waves-effect waves-light btn inv modal-trigger"
+              href="#modal-events"
+              >Inscrições</a
             >
           </div>
         </div>
@@ -345,89 +345,73 @@
     <!-- Modal Structure -->
     <div id="modal-events" class="modal">
       <div class="modal-content">
-        <div class="row">
-          <form
-            name="eventos"
-            class="col s12"
-            action="POST"
-            netlify-honeypot="bot-field"
-            data-netlify-recaptcha="true"
-            data-netlify="true">
-            <div class="row">
-              <div class="input-field col s12">
-                <p class="hidden">
-                  <label>
-                    Don not fill this out if you are human: <input name="bot-field" />
-                  </label>
-                </p>
-                <select>
-                  <option value="" disabled selected>
-                    Escolhe um Jogo
-                  </option>
-                  <option value="1">Barrow Maze</option>
-                  <option value="2">Dungeons & Dragons</option>
-                  <option value="3">Flesh and Blood</option>
-                </select>
-              </div>
+        <form
+          name="eventos"
+          class="col s12"
+          action="POST"
+          netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+        >
+          <div class="row">
+            <div class="input-field col s12">
+              <p class="hidden">
+                <label>
+                  Don not fill this out if you are human:
+                  <input name="bot-field" />
+                </label>
+              </p>
+              <select>
+                <option value="" disabled selected>Escolhe um Jogo</option>
+                <option value="1">Barrow Maze</option>
+                <option value="2">Dungeons & Dragons</option>
+                <option value="3">Flesh and Blood</option>
+              </select>
             </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <input
-                name="nome"
-                type="text"
-                class="validate"
-                required
-                />
-                <label for="name">Nome</label>
-              </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input name="nome" type="text" class="validate" required />
+              <label for="name">Nome</label>
             </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input name="email" type="email" class="validate" required />
+              <label for="email">E-mail</label>
             </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <input
-                  name="email"
-                  type="email"
-                  class="validate"
-                  required
-                />
-                <label for="email">E-mail</label>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <div data-netlify-recaptcha="true"></div>
             </div>
-            <div class="row">
-              <div class="col s12">
-                <div data-netlify-recaptcha="true"></div>
-              </div>
+          </div>
+          <div class="row hide-btn">
+            <div>
+              <ul>
+                <li>
+                  <input class="btn" type="submit" value="Enviar" />
+                </li>
+              </ul>
             </div>
-            <div class="row hide-btn">
-              <div>
-                <ul>
-                  <li>
-                    <input class="btn" type="submit" value="Enviar" />
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li>
-                    <a href="#!" class="modal-close btn center"
-                      >Fechar</a
-                    >
-                  </li>
-                </ul>
-              </div>
+            <div>
+              <ul>
+                <li>
+                  <a href="#!" class="modal-close btn center">Fechar</a>
+                </li>
+              </ul>
             </div>
-
-            <div class="row btn-mobile">
-              <div class="col s12">
-                <ul>
-                  <li>
-                    <input class="btn" type="submit" value="Enviar" />
-                  </li>
-                </ul>
-              </div>
+          </div>
+          <div class="row btn-mobile">
+            <div class="col s12">
+              <ul>
+                <li>
+                  <input class="btn" type="submit" value="Enviar" />
+                </li>
+              </ul>
             </div>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     </div>
 
