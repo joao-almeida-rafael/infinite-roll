@@ -952,11 +952,11 @@
     <div id="modal-events" class="modal">
       <div class="modal-content">
         <form
-          name="eventos"
-          class="col s12"
+          name="contact"
           action="POST"
           netlify-honeypot="bot-field"
           data-netlify="true"
+          onSubmit="submit"
         >
           <div class="row">
             <div class="input-field col s12">
@@ -968,9 +968,9 @@
               </p>
               <select>
                 <option value="" disabled selected>Escolhe um Jogo</option>
-                <option value="1">Barrow Maze</option>
-                <option value="2">Dungeons & Dragons</option>
-                <option value="3">Flesh and Blood</option>
+                <option name="Barrow Maze" value="1">Barrow Maze</option>
+                <option name="D&D" value="2">Dungeons & Dragons</option>
+                <option name="F&B" value="3">Flesh and Blood</option>
               </select>
             </div>
           </div>
@@ -992,13 +992,11 @@
             </div>
           </div>
           <div class="row hide-btn">
-            <div>
-              <ul>
-                <li>
-                  <input class="btn" type="submit" value="Enviar" />
-                </li>
-              </ul>
-            </div>
+            <ul>
+              <li>
+                <input class="btn" type="submit" value="Enviar" />
+              </li>
+            </ul>
             <div>
               <ul>
                 <li>
