@@ -104,9 +104,9 @@
               <li>
                 <a class="contact" href="#contact">Contactos</a>
               </li>
-              <li>
+              <!-- <li>
                 <a class="lang" href="en-US.html">English</a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -118,7 +118,7 @@
       <li class="merch"><a href="merch.html">Merchandise</a></li>
       <li><a href="index.html#club">Clube</a></li>
       <li><a href="index.html#contact">Contactos</a></li>
-      <li><a class="lang" href="en-US.html">English</a></li>
+      <!--  <li><a class="lang" href="en-US.html">English</a></li> -->
     </ul>
 
     <!-- Hero -->
@@ -1083,6 +1083,11 @@
       // Init form char counter
       $(document).ready(function () {
         $('input#input_text, textarea#textarea1').characterCounter();
+      });
+
+      // Init Form Selector
+      $(document).ready(function () {
+        $('select').formSelect();
       });
 
       Materialize.scrollFire(options);
