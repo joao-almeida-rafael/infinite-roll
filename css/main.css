@@ -169,7 +169,7 @@ a:hover {
 }
 
 .rent td {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 
 .rent .last {
@@ -181,7 +181,7 @@ a:hover {
 }
 
 .rent th {
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid black;
 }
 
 .terms {
