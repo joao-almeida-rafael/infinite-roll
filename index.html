@@ -341,26 +341,25 @@
             >
 
             <!-- Modal Structure -->
-            <div id="modal-events" class="modal modal-fixed-footer">
+            <div id="modal-events" class="modal">
               <div class="modal-content">
-                <div class="input-field col s12">
-                  <h3>Inscrições em Eventos</h3>
+                <div class="row">
                   <form
                     name="contacto"
                     class="col s12"
                     action="POST"
                     data-netlify="true"
                   >
-                    <select>
-                      <option value="" disabled selected>
-                        Escolhe um Jogo
-                      </option>
-                      <option value="1">Barrow Maze</option>
-                      <option value="2">Dungeons & Dragons</option>
-                      <option value="3">Flesh and Blood</option>
-                    </select>
                     <div class="row">
                       <div class="input-field col s12">
+                        <select>
+                          <option value="" disabled selected>
+                            Escolhe um Jogo
+                          </option>
+                          <option value="1">Barrow Maze</option>
+                          <option value="2">Dungeons & Dragons</option>
+                          <option value="3">Flesh and Blood</option>
+                        </select>
                         <input
                           name="nome"
                           type="text"
@@ -400,6 +399,16 @@
                             <a href="#!" class="modal-close btn center"
                               >Fechar</a
                             >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="row btn-mobile">
+                      <div class="col s12">
+                        <ul>
+                          <li>
+                            <input class="btn" type="submit" value="Enviar" />
                           </li>
                         </ul>
                       </div>
