@@ -28,6 +28,18 @@ a:hover {
   margin: 1.5rem;
 }
 
+.btn-inv {
+  background-color: orange;
+  color: black;
+  margin: 1.5rem;
+}
+
+.btn-inv:hover {
+  background-color: white;
+  color: black;
+  margin: 1.5rem;
+}
+
 .btn-large:hover,
 .btn:hover {
   color: black;
