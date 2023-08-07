@@ -1,11 +1,20 @@
-/* Global */
-
-.body{
-  overflow-y: hidden;
+/* Pac-Man Pre-Loader */
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url('../img/loader.gif') no-repeat center center;
 }
 
-a{
-  color: #501E54;
+/* Global */
+body {
+  overflow-x: hidden !important;
+}
+
+a {
+  color: #501e54;
 }
 
 a:hover {
@@ -14,14 +23,27 @@ a:hover {
 
 .btn-large,
 .btn {
-   background-color: #501E54 !important;
-   color: white;
+  background-color: #501e54;
+  color: white;
+  margin: 1.5rem;
+}
+
+.inv {
+  background-color: orange;
+  color: black;
+  margin: 1.5rem;
+}
+
+.inv:hover {
+  background-color: white;
+  color: black;
+  margin: 1.5rem;
 }
 
 .btn-large:hover,
 .btn:hover {
-    color: black;
-    background-color: orange !important;
+  color: black;
+  background-color: orange;
 }
 
 .divider {
@@ -32,12 +54,46 @@ a:hover {
   color: grey;
 }
 
-.parallax{
+.parallax {
   -webkit-filter: brightness(0.5);
   filter: brightness(0.4);
 }
 
+.btn-mobile {
+  display: none;
+}
+
+.modal {
+  max-height: 80%;
+  height: 80%;
+  font-size: 1.1rem;
+}
+
+#modalcontact {
+  padding-top: 10rem;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  margin-left: 18.7rem;
+  margin-right: 18.7rem;
+}
+
+.calendar {
+  margin-top: -4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Index */
+
 /* Nav */
+.merch {
+  display: none;
+}
 
 #logo-s {
   margin-top: 0.2rem;
@@ -69,46 +125,50 @@ a:hover {
 }
 
 .transparent {
-  box-shadow: none!important;
+  box-shadow: none;
 }
 
 .newcolor {
-  background-color: #501E54;
+  background-color: #501e54;
 }
 
 /* Hero */
+#halloween {
+  display: grid;
+  place-items: center;
+  margin-top: 55px;
+}
 
-/* #hero-img{
-  -webkit-filter: brightness(0.5);
-  filter: brightness(0.6);
-} */
+#halloween-col {
+  margin-left: 0;
+}
 
-#hero-logo{
+.card-content {
+  background-color: black;
+}
+
+#hero-logo {
   margin-top: 80px;
   height: 80vh;
   width: auto;
 }
 
-#hero{
+#hero {
   height: 101vh;
   margin-top: -80px;
 }
 
 .cheveron {
   z-index: 2;
-  /* position: absolute; */
-  /* margin: auto; */
   font-size: 4rem;
 }
 
-.cheveron:hover{
+.cheveron:hover {
   font-size: 5rem;
   cursor: pointer;
 }
 
-
 /* Club */
-
 #discord {
   font-size: 5rem;
   margin: 1rem;
@@ -119,23 +179,39 @@ a:hover {
 }
 
 /* Renting */
-
-.parallax-container{
+.parallax-container {
   width: 100vw;
   height: auto;
 }
 
-#lion-head{
-  margin-top: 3rem;
+.rent td {
+  border-bottom: 1px solid black;
 }
 
-#btn-info{
+.rent .last {
+  border-bottom: none;
+}
+
+.rent {
   margin-bottom: 3rem;
+}
+
+.rent th {
+  border-bottom: 3px solid black;
+}
+
+.terms {
+  margin-bottom: 5rem;
 }
 
 /* Event */
-#event{
+#event {
   margin-bottom: 3rem;
+}
+
+.event-btn {
+  display: grid;
+  place-items: center;
 }
 
 #cal-btn1,
@@ -144,17 +220,17 @@ a:hover {
   margin-top: 2rem;
   font-size: 1.4rem;
 }
-#cal-btn1{
+#cal-btn1 {
   padding-top: 8rem;
 }
 
 #cal-btn2 {
- margin-top: 1rem;
- font-size: 1.4rem;
+  margin-top: 1rem;
+  font-size: 1.4rem;
 }
 
 #direct-contact {
-  font-size: 4rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -170,28 +246,24 @@ a:hover {
   height: 3rem;
 }
 
+.hide-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 /* Here */
-
-#here{
-  background-color: #501E54;
+#here {
+  background-color: #501e54;
 }
 
-#wh{
-  height: 8rem;
-}
- 
-#here .row{
-  margin-bottom: 0rem;
-}
-
-#dd{
-  height: 9rem;
-}
+/* #teste {
+  width: 600px;
+} */
 
 /* Contact */
-
-#contact{
-  margin-top: 4rem;
+#contact {
+  margin-top: 3rem;
 }
 
 #social {
@@ -199,7 +271,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 2.2rem;
-  color: #501E54;
+  color: #501e54;
   margin-top: 1rem;
 }
 
@@ -213,80 +285,55 @@ a:hover {
   max-height: 100%;
 }
 
-/* Brands */
+.qr-text {
+  font-size: 1.5rem;
+  margin-top: 6rem;
+}
 
-#brands{
+#point-left {
+  transform: rotate(-90deg);
+  margin: 1rem;
+  height: 3rem;
+}
+
+/* Brands */
+#brands {
   padding-top: 3rem;
 }
 
-.brands{
+.brands {
   margin-bottom: 3rem;
 }
 
 /* Footer */
-
-#logos{
+#logos {
   height: 5rem;
 }
 
-#logos-list{
+#logos-list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-/* Media Queries */
+/* Blog */
 
-@media (max-width: 992px) {
-
-  /* Nav */
-
-  #logo-s {
-    height: 5rem;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    width: 5rem;
-  }
-
-  #brand-logo {
-    display: none;
-  }
-
-  /* Hero */
-
-  #cheveron {
-    display: none;
-  }
-
-  #hero-logo {
-    position: absolute;
-    margin-top: 20vh;
-    /* padding-top: 20%; */
-    left: 0%;
-    right: 0%;
-    /* text-align: center; */
-    z-index: 2;
-    width: 100%;
-    height: auto;
-  }
-
-  #hero {
-    /* object-fit: cover; */
-    margin-top: -80px;
-    height: 104vh;
-    width: 103vw !important; 
-  }
+.fa-tools {
+  font-size: 10rem;
+  margin-top: 25vh;
+  margin-bottom: 2rem;
 }
 
-@media (max-width: 700px) {
+.const-text {
+  margin-bottom: 25vh;
+}
 
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
   /* General */
 
   /* Nav */
-
   .navbar-fixed nav {
     position: absolute;
   }
@@ -299,13 +346,19 @@ a:hover {
     height: 4rem;
     width: 4rem;
     position: absolute;
-    /* margin: auto; */
+    margin: auto;
     left: 0;
     right: 0;
-    /* text-align: center;  */
+    text-align: center;
   }
 
   /* Hero */
+  #halloween {
+    display: grid;
+    place-items: center;
+    margin-top: 10vh;
+    height: 90vh;
+  }
 
   #cheveron {
     display: none;
@@ -314,44 +367,55 @@ a:hover {
   #hero-logo {
     position: absolute;
     margin-top: 20vh;
-    /* padding-top: 20%; */
     left: 0%;
     right: 0%;
-    /* text-align: center; */
     z-index: 2;
     width: 100%;
     height: auto;
   }
 
   #hero {
-    /* object-fit: cover; */
     margin-top: -80px;
     height: 103vh;
     width: 100vw;
   }
 
-  /* Club */
-
-  /* Event */
-
-  #cal-btn1{
+  /* Events */
+  .hide-btn {
     display: none;
   }
 
-  #cal-btn2{
+  .btn-mobile {
+    display: contents;
+  }
+
+  .btn-mobile .btn {
+    margin: 0;
+  }
+
+  .modal {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+
+  /* Event */
+  #cal-btn1 {
+    display: none;
+  }
+
+  #cal-btn2 {
     margin-top: 0rem;
   }
 
   /* Renting */
 
   /* Here */
-
-  #here{
+  /* #here {
     display: none;
-  }
+  } */
 
   /* Contact */
-
   #directions {
     display: block;
   }
@@ -361,8 +425,7 @@ a:hover {
   }
 
   /* Footer */
-
-  #brands{
+  #brands {
     display: none;
   }
 }
