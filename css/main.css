@@ -22,9 +22,17 @@ a:hover {
 }
 
 .btn-large,
+.btnw,
 .btn {
   background-color: #501e54;
   color: white;
+  margin: 1.5rem;
+}
+
+.btnw
+ {
+  background-color: white;
+  color: black;
   margin: 1.5rem;
 }
 
