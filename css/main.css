@@ -211,6 +211,13 @@ a:hover {
   margin-bottom: 5rem;
 }
 
+/* Rent GM */
+
+#rent-gm{
+  padding-top: -3rem;
+  margin-top: -3rem;
+}
+
 /* Event */
 #event {
   margin-bottom: 3rem;
@@ -260,7 +267,8 @@ a:hover {
 }
 
 /* Here */
-#here {
+#here,
+#rent-gm {
   background-color: #501e54;
 }
 
