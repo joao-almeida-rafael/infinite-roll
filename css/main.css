@@ -214,8 +214,8 @@ a:hover {
 #neon.text {
   font-family: 'Liberty';
   font-weight: 100;
-  font-size: 7vw;
-  letter-spacing: 0.25em;
+  font-size: 9vw;
+  letter-spacing: 0.25rem;
   flex-flow: row; }
 .letter {
   color: #d9fdff;
