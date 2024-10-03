@@ -479,7 +479,7 @@ a:hover {
   }
 
   #show-arrow {
-    display: flex;
+    display: inline-flex;
     width: 20vw;
 
   }
