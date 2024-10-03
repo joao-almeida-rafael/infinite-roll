@@ -76,6 +76,11 @@ a:hover {
   font-size: 1.1rem;
 }
 
+#show-arrow{
+  display: none;
+}
+
+
 #modalcontact {
   padding-top: 10rem;
 }
@@ -471,6 +476,12 @@ a:hover {
   /* Events */
   .hide-btn {
     display: none;
+  }
+
+  #show-arrow {
+    display: flex;
+    width: 20vw;
+
   }
 
   .btn-mobile {
