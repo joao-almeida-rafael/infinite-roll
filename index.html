@@ -274,12 +274,40 @@
       </div>
     </section> -->
 
+    <section id="membership" class="row section section-membership scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center-align black-text">
+            <h1 class="text" id="neon">
+              <span class="letter letter-1">M</span>
+              <span class="letter letter-2">E</span>
+              <span class="letter letter-3">M</span>
+              <span class="letter letter-4">B</span>
+              <span class="letter letter-5">E</span>
+              <span class="letter letter-6">R</span>
+              <span class="letter letter-7">S</span>
+              <span class="letter letter-8">H</span>
+              <span class="letter letter-9">I</span>
+              <span class="letter letter-10">P</span>
+            </h1>
+      
+          <h4>Torna-te já membro do club Infinite Roll e aproveita todas as vantagens!</h4>
+          <p>Tens um club com todo o espaço e o conforto de que precisas para teres as tuas sessões de jogos.</p>
+          <p>Temos mesas grandes, cadeiras confortaveis, internet rápida, bebidadas frescas, snacks, café e claro uma biblioteca de jogos ao teu dispor.</p>
+          <p>Descobre todas a vantagens como <h5><b>descontos até 20%!</b></h5> carrega no botão abaixo para descobrires mais.</p>
+          <img id="point" src="img/increase.webp" alt="" />
+          <a id="btn-event" class="btn modal-trigger" href="#modal-membership">Preços e Condições</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="rent-gm" class="row section section-rent-gm scrollspy">
       <div class="container">
         <div class="row">
           <div class="col s12 center-align white-text">
             <h2>Rent-a-GM</h2>
-            <h5>Querem jogar roleplaying games mas não têm Game Master? <br> Aluguem um Game Master e joguem na Infinite Roll!</h5>
+            <h4>Querem jogar roleplaying games mas não têm Game Master? <br> Aluguem um Game Master e joguem na Infinite Roll!</h4>
             <p>
               Escolham entre várias aventuras para Dungeons & Dragons (de futuro teremos mais sistemas e mais aventuras!). <br>36.9€ por sessão. <br> Se a sessão for fora do horário normal de funcionamento da loja o valor será 43.05€ <br> A sessão é organizada conforme a disponibilidade do Game Master. <br />
           </div>
@@ -773,6 +801,62 @@
       </div>
     </div>
 
+    <!-- Modal Structure for Membership -->
+    <div id="modal-membership" class="modal">
+      <div class="modal-content">
+        <table class="striped responsive-table">
+          <thead>
+            <tr>
+                <th>Classes</th>
+                <th>Vantagens</th>
+                <th>Preços</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td>Viajante</td>
+              <td>
+                <ol>
+                  <li>Joga o dia todo.</li>
+                  <li>Usa os jogos comunitários.</li>
+                  <li>Pede assistência a um especialista.</li>
+                </ol>
+             </td>
+              <td>3€/dia</td>
+            </tr>
+            <tr>
+              <td>Aventureiro</td>
+              <td>
+                <ol>
+                  <li>Joga o dia todo.</li>
+                  <li>Usa os jogos comunitários.</li>
+                  <li>Pede assistência a um especialista.</li>
+                </ol>
+              </td>
+              <td>10€/mês ou 95€/ano<sub>(desconto de 25€/ano)</sub></td>
+            </tr>
+            <tr>
+              <td>Herói</td>
+              <td>
+                <ol>
+                  <li>Joga o dia todo.</li>
+                  <li>Usa os jogos comunitários.</li>
+                  <li>Pede assistência a um especialista.</li>
+                  <li><b>20% de desconto em todos os produtos da loja.</b></li>
+                  <li>Armazena jogos no Club.</li>
+                  <li>Traz um amigo de graça.</li>
+                </ol>
+              </td>
+              <td>15€/mês ou 125€/ano<sub>(desconto de 55€/ano)</sub> </td>
+            </tr>
+          </tbody>
+        </table>
+              <br>
+      <a href="#!" class="modal-close btn center-align">Fechar</a>
+      <a id="btn-event" class="btn modal-trigger" href="#modalcontact">Contactos</a>
+      </div>
+    </div>
     <!-- Modal Structure for Calendar -->
     <div id="modal2" class="modal center">
       <div class="modal-content calendar">
@@ -933,6 +1017,8 @@
       </div>
     </div>
 
+    
+
     <!--Import jQuery before materialize.js-->
     <script
       type="text/javascript"
@@ -1009,5 +1095,6 @@
 
       Materialize.scrollFire(options);
     </script>
+
   </body>
 </html>

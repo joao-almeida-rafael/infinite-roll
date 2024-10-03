@@ -185,6 +185,79 @@ a:hover {
   margin-top: 4rem;
 }
 
+/* Membership */
+@font-face {
+  font-family: "Liberty";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/907368/liberty.otf"); }
+
+#neon, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+#neon {
+  background-color: #501e54;
+  font-size: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; }
+#neon.text {
+  font-family: 'Liberty';
+  font-weight: 100;
+  font-size: 7vw;
+  letter-spacing: 0.25em;
+  flex-flow: row; }
+.letter {
+  color: #d9fdff;
+  text-shadow: 0 0 2rem #00f0ff;
+  display: inline-block; }
+.letter.letter-2 {
+/*   transform: translate(-0.2rem, 1rem) rotate(10deg); */  
+  animation: flicker 2s ease-in-out infinite alternate; }
+.letter.letter-4 {
+/*   transform: translate(-0.2rem, 1rem) rotate(10deg); */  
+  animation: flicker 3s ease-in-out infinite alternate; }
+.letter.letter-7 {
+/*   transform: translate(-0.2rem, 1rem) rotate(10deg); */  
+  animation: flicker 5s ease-in-out infinite alternate; }
+.letter.letter-10 {
+/*   transform: translate(-0.2rem, 1rem) rotate(10deg); */  
+  animation: flicker 1.5s ease-in-out infinite alternate; }
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+    transform: translate(-0.2rem, 0rem) ; }
+  5% {
+    opacity: 1;
+    transform: translate(-0.2rem, 0rem) ; }
+  5.5% {
+    opacity: 0;
+    transform: translate(-0.2rem, 0rem) ; }
+  6% {
+    opacity: 1;
+    transform: translate(-0.2rem, 0rem) ; }
+  6.5% {
+    opacity: 1;
+    transform: translate(-0.2rem, 0rem) ; }
+  7% {
+    opacity: 0;
+    transform: translate(-0.2rem, 0rem) ; }
+  8% {
+    opacity: 1;
+    transform: translate(-0.2rem, 0rem) ; }
+  50% {
+    opacity: 1;
+    transform: translate(-0.2rem, 0rem) ; }
+  100% {
+    opacity: 1;
+    transform: translate(-0.2rem, 0rem) ; } }
+
 /* Renting */
 .parallax-container {
   width: 100vw;
