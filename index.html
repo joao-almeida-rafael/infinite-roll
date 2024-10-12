@@ -85,6 +85,19 @@
     <!-- Pre-Loader Pac-Man -->
     <div id="loader"></div>
 
+    <!-- floating button -->
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large">
+        <i class="large material-icons">chat_bubble</i>
+      </a>
+      <ul>
+        <li><a href="mailto:{infinite.rolling@gmail.com}?subject={subject}&body={content}" class="btn-floating inv"><i class="material-icons">mail</i></a></li>
+        <li><a href="tel:{928031174}" class="btn-floating pur"><i class="material-icons">call</i></a></li>
+        <li><a href=" https://wa.me/+351928031174" class="btn-floating inv"><i class="material-icons">chat</i></a></li>
+        <li><a href="https://www.google.com/maps/place/Infinite+Roll/@39.4084402,-9.1398492,17z/data=!4m5!3m4!1s0xd18b3af02007a63:0xa90169604a029067!8m2!3d39.4084781!4d-9.1376463" class="btn-floating pur extra-inv-margin"><i class="material-icons">location_on</i></a></li>
+      </ul>
+    </div>
+
     <!-- Nav -->
     <div class="navbar-fixed">
       <nav class="transparent">
@@ -379,6 +392,7 @@
               é o lugar para ti! <br />
               Pressione já no botão Reservar o Club!
             </p>
+            
             <a id="btn-event" class="btn modal-trigger" href="#modalcontact"
               >Reserva o club</a
             >
@@ -602,8 +616,7 @@
       <div class="container">
         <div class="row center hide-btn">
           <div class="col s12 m6">
-            <div class="divider hide-btn"></div>
-
+           <!--  <div class="divider hide-btn"></div> -->
             <img class="right" src="./img/qr_vcard.webp" alt="" />
           </div> 
 
@@ -1122,6 +1135,14 @@
       // Init form char counter
       $(document).ready(function () {
         $('input#input_text, textarea#textarea1').characterCounter();
+      });
+
+      // Init float button
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+          toolbarEnabled: true
+        });
       });
 
       Materialize.scrollFire(options);

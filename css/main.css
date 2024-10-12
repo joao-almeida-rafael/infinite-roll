@@ -15,7 +15,12 @@ body {
 
 a {
   color: #501e54;
+  
 }
+
+/* .pur {
+  background-color: #501e54;
+} */
 
 a:hover {
   color: orange;
@@ -35,16 +40,24 @@ a:hover {
   margin: 1.5rem;
 }
 
+.pur{
+  background-color: #501e54;
+}
+
 .inv {
   background-color: orange;
   color: black;
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
 }
 
 .inv:hover {
   background-color: white;
   color: black;
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
+}
+
+.extra-inv-margin{
+  margin-bottom: 1rem;
 }
 
 .btn-large:hover,
