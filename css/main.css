@@ -234,6 +234,10 @@ a:hover {
 /*   transform: translate(-0.2rem, 1rem) rotate(10deg); */  
   animation: flicker 1.5s ease-in-out infinite alternate; }
 
+.member-modal{
+  padding: 2rem;
+}
+
 @keyframes flicker {
   0% {
     opacity: 1;
@@ -421,6 +425,7 @@ a:hover {
   margin-bottom: 25vh;
 }
 
+
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
@@ -508,6 +513,7 @@ a:hover {
   }
 
   /* Membership */
+
   #neon.text {
     font-family: 'Liberty';
     font-weight: 100;
