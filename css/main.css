@@ -214,7 +214,7 @@ a:hover {
 #neon.text {
   font-family: 'Liberty';
   font-weight: 100;
-  font-size: 9vw;
+  font-size: 7vw;
   letter-spacing: 0.25rem;
   flex-flow: row; }
 .letter {
@@ -506,6 +506,14 @@ a:hover {
   #cal-btn2 {
     margin-top: 0rem;
   }
+
+  /* Membership */
+  #neon.text {
+    font-family: 'Liberty';
+    font-weight: 100;
+    font-size: 10vw;
+    letter-spacing: 0.25rem;
+    flex-flow: row; }
 
   /* Renting */
 
