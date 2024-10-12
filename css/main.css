@@ -100,6 +100,10 @@ a:hover {
   display: none;
 }
 
+blockquote{
+  border-left: 5px solid #501e54;
+}
+
 /* Index */
 
 /* Nav */
