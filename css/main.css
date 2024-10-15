@@ -26,6 +26,8 @@ a:hover {
   color: orange;
 }
 
+
+
 .btn-large,
 .btn {
   background-color: #501e54;
@@ -40,8 +42,14 @@ a:hover {
   margin: 1.5rem;
 }
 
-.pur{
+.pur{ 
+  box-shadow: grey 0px 0px 15px 5px;
   background-color: #501e54;
+}
+
+.pur:hover{
+  background-color: orange;
+  color: white;
 }
 
 .inv {
@@ -51,7 +59,7 @@ a:hover {
 }
 
 .inv:hover {
-  background-color: white;
+  background-color: #501e54;
   color: black;
   /* margin: 1.5rem; */
 }
