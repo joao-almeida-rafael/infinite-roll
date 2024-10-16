@@ -47,6 +47,10 @@ a:hover {
   background-color: #501e54;
 }
 
+.info{
+  size: 40px;
+}
+
 .pur:hover{
   background-color: orange;
   color: white;
