@@ -201,11 +201,12 @@ blockquote{
 
 .cheveron {
   z-index: 2;
-  font-size: 4rem;
+  font-size: 5rem;
+  padding-bottom: 3rem;
 }
 
 .cheveron:hover {
-  font-size: 5rem;
+  font-size: 6rem;
   cursor: pointer;
 }
 
