@@ -406,10 +406,19 @@ blockquote{
   display: none;
 }
 
+.arrow-right {
+  /* max-width: 50%; */
+  height: 10vh;
+}
+
 #map,
 #calendar {
+  max-width: 95%;
+}
+
+#map:hover{
   max-width: 100%;
-  max-height: 100%;
+  cursor: pointer;
 }
 
 .qr-text {
@@ -564,6 +573,9 @@ blockquote{
   }
 
   #map {
+    display: none;
+  }
+  .arrow-right {
     display: none;
   }
 
