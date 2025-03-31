@@ -572,9 +572,11 @@ blockquote{
     display: block;
   }
 
-  #map {
+  #map,
+  #map-action {
     display: none;
   }
+
   .arrow-right {
     display: none;
   }
