@@ -201,8 +201,9 @@ blockquote{
 
 .cheveron {
   z-index: 2;
-  font-size: 5rem;
-  padding-bottom: 3rem;
+  font-size: 80rem;
+  padding-bottom:3rem;
+  /* display:none */
 }
 
 .cheveron:hover {
